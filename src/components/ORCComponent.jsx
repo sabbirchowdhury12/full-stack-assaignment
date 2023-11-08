@@ -29,7 +29,7 @@ const OCRComponent = () => {
   };
 
   return (
-    <div>
+    <div style={{ marginTop: "100px" }}>
       <Dropzone onDrop={(acceptedFiles) => handleImageUpload(acceptedFiles)}>
         {({ getRootProps, getInputProps }) => (
           <section>

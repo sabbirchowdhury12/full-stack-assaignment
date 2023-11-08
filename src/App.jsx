@@ -3,6 +3,7 @@ import "./App.css";
 import Main from "./components/main";
 import APITask from "./components/APITask";
 import QRCodeGenerator from "./components/QRCodeGenerator";
+import OCRComponent from "./components/ORCComponent";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "QR-scanner",
     element: <QRCodeGenerator />,
+  },
+  {
+    path: "ocr",
+    element: <OCRComponent />,
   },
 ]);
 

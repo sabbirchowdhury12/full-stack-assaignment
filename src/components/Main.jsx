@@ -17,6 +17,11 @@ const Main = () => {
         <p> UPI Scanner generator</p>
         <Link to={"QR-scanner"}>Live</Link>
       </div>
+      <div>
+        <h4>Task:3 </h4>
+        <p>ORC</p>
+        <Link to={"ocr"}>Live</Link>
+      </div>
     </div>
   );
 };
